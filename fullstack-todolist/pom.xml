@@ -18,7 +18,7 @@
 
 		<psql.url>jdbc:postgresql://localhost:5432/postgres</psql.url>
 		<psql.user>postgres</psql.user>
-		<psql.password>myfirstprmvoject</psql.password>
+		<psql.password>myfirstproject</psql.password>
 
 	</properties>
 	<dependencies>
@@ -64,6 +64,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
 
 	</dependencies>
 
