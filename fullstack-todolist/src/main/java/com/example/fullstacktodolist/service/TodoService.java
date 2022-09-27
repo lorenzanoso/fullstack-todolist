@@ -38,6 +38,7 @@ public class TodoService {
             return getAllTodos();
         }
 
+
     public List<TodoDTO> updateTodo(@NonNull Todo updatedTodo) {
 
         // Get Todo Entity
@@ -74,7 +75,7 @@ public class TodoService {
 
 
 
-    private List<TodoDTO> getAllTodos(){
+    public List<TodoDTO> getAllTodos(){
             List<TodoListEntity> allTodos = todoRepository.findAll();
             List<TodoDTO> updatedList = new ArrayList<>();
 

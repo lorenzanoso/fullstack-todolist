@@ -33,4 +33,10 @@ public class TodoController{
         return todoService.deleteTodo(id);
     }
 
+    @GetMapping("/getAll")
+
+    public List<TodoDTO> getAllTodos(){
+        return todoService.getAllTodos();
+    }
+
 }
